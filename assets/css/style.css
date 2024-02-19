@@ -1,0 +1,53 @@
+body{
+margin: 0%;
+}
+
+#cuerpo{
+    height: 1000px;
+    width: 100%;
+    grid-template-areas: 
+    ". H H H H H H H H ."
+    ". I I I I T T T T ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . .";
+    display: grid;
+    background-color: #00272d;
+    margin:0 auto;
+}
+
+img{
+    height: 180px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(118, 118, 118);
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    transition-duration: 0.5s;
+    color: aqua;
+    font-size: 20px;
+}
+
+#header{
+    grid-area: H;
+    background-color: #bfac8b;
+}
+
+#info{
+    grid-area: I;
+    background-color: #e2c289;
+}
+
+#tabla{
+    grid-area: T;
+    background-color: #dfac54;
+}
+
+#titulos{
+    font-family: 'Lucida Sans';
+    width: 100px;
+}
